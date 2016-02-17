@@ -14,6 +14,7 @@
 		EFE0F9871C7486EF00F82B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE0F9851C7486EF00F82B4D /* LaunchScreen.storyboard */; };
 		EFE0F9921C7486EF00F82B4D /* ScrollViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0F9911C7486EF00F82B4D /* ScrollViewTestTests.swift */; };
 		EFE0F99D1C7486EF00F82B4D /* ScrollViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0F99C1C7486EF00F82B4D /* ScrollViewTestUITests.swift */; };
+		EFE0F9AC1C74890400F82B4D /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0F9AA1C74890400F82B4D /* ScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EFE0F9981C7486EF00F82B4D /* ScrollViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE0F99C1C7486EF00F82B4D /* ScrollViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTestUITests.swift; sourceTree = "<group>"; };
 		EFE0F99E1C7486EF00F82B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE0F9AA1C74890400F82B4D /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				EFE0F97C1C7486EF00F82B4D /* AppDelegate.swift */,
 				EFE0F97E1C7486EF00F82B4D /* ViewController.swift */,
+				EFE0F9AA1C74890400F82B4D /* ScrollViewController.swift */,
 				EFE0F9801C7486EF00F82B4D /* Main.storyboard */,
 				EFE0F9831C7486EF00F82B4D /* Assets.xcassets */,
 				EFE0F9851C7486EF00F82B4D /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFE0F97F1C7486EF00F82B4D /* ViewController.swift in Sources */,
+				EFE0F9AC1C74890400F82B4D /* ScrollViewController.swift in Sources */,
 				EFE0F97D1C7486EF00F82B4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
